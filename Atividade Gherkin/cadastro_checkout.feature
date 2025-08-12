@@ -10,7 +10,7 @@ Como cliente da EBAC-SHOP, eu quero me cadastrar para finalizar minha compra.[
 
   Cenário: Tentativa de cadastro com email invalido
     Quando eu preencho o email com o formato "email.invalido@email.com" 
-    E eu preencho os demais campos obrigátorios e eu clico no botão "Finalizar compra
+    E eu preencho os demais campos obrigátorios e eu clico no botão "Finalizar compra"
     Então eu devo ver uma mensagem de erro "O formato do email é invalido"
 
   Cenário: Tentativa de cadastro com ccampos obrigatorios vazios
@@ -28,5 +28,6 @@ Como cliente da EBAC-SHOP, eu quero me cadastrar para finalizar minha compra.[
       |         | Fabricio@Email.com | Fabricio@123 | Por favor preencha o campo Nome  |
       | Rubens  |                    | Rubens@123   | Por favor preencha o campo email |
       | Juliana | Juliana@email.com  |              | Por favor preencha o campo Senha |
+
 
 
