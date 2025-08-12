@@ -22,9 +22,7 @@ Como cliente da EBAC-SHOP, eu quero me cadastrar para finalizar minha compra.[
     Então eu devo ver uma mensagem de alerta "`Por favor, preencha todos os campos obrigatorios"
 
   Esquema do Cenário: Tentativa de Cadastro de diversos campos
-    Quando eu digitar o nome com "<Nome>"
-    E eu digitar o email com "<Email>"
-    E digitar a senha com "<Senha>"
+    Quando eu digitar o nome com "<Nome>, <Email>, <Senha>"
     E eu clico no botão "Finalizar Compra"
     Então eu devo ver a mensagem de "<Mensagem_Esperada>"
 
@@ -34,3 +32,4 @@ Como cliente da EBAC-SHOP, eu quero me cadastrar para finalizar minha compra.[
       |         | Fabricio@Email.com | Fabricio@123 | Por favor preencha o campo Nome  |
       | Rubens  |                    | Rubens@123   | Por favor preencha o campo email |
       | Juliana | Juliana@email.com  |              | Por favor preencha o campo Senha |
+
